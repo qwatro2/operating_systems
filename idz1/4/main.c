@@ -13,7 +13,7 @@ const int BUFFER_SIZE = 5000;
 
 int main(const int argc, char *argv[]) {
     if (argc != 3) {
-        printf("Команда для использования: %s <input> <output>", argv[0]);
+        printf("Usage: %s <input> <output>", argv[0]);
         exit(1);
     }
 
